@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.role h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.primary-text {
+  color: white;
+}
+
+.highlighted-text {
+  color: #eba63f;
+}
+
+.tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.options .highlighted-btn {
+  margin: 0 0 0 28px;
+}
+
+.options .highlighted-btn:hover {
+  background-color: cornsilk;
+  color: #111;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0 0 white;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0 0 150px;
+}
+
+.background {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../assets/Home/profile_photo.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.background:hover {
+  transform: scale(1.09);
+  transition: 1s ease-out;
+}
+
+.cols .icons i {
+  color: white;
+  padding: 15px;
+  padding-left: 0;
+}
+
+.cols .icons i:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+  .picture {
+    margin: 0 0 0 80px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .role .primary-text {
+    font-size: 12px;
+  }
+
+  .options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 600;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .picture {
+    margin: 0 !important;
+  }
+
+  .parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .details {
+    margin: 25px 0 0 0;
+  }
+
+  .options .highlighted-btn {
+    margin: 0 !important;
+  }
+
+  .options,
+  .role {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+
+  .details {
+    width: 90%;
+  }
+}
