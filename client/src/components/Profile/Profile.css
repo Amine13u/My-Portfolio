@@ -5,9 +5,6 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: url("../../assets/Home/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .parent {
@@ -76,7 +73,7 @@
 }
 
 .background:hover {
-  transform: scale(1.09);
+  transform: scale(1.07);
   transition: 1s ease-out;
 }
 

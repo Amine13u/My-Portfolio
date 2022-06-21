@@ -1,0 +1,88 @@
+.container {
+  background-color: #1d1d2c;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.brand {
+  font-size: 50px;
+  font-family: "Poppins Bold";
+  color: #3cbcc3;
+}
+
+.menu {
+  width: 40%;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Poppins Medium";
+  cursor: pointer;
+}
+
+li:hover {
+  color: #eba63f;
+}
+
+.hamburger {
+  display: none;
+  color: white;
+}
+
+@media screen and (max-width: 1110px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    width: 78%;
+    padding: 0 40px;
+    position: relative;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    height: 400%;
+    width: 100%;
+    background-color: #1f2235;
+    z-index: 1000;
+    opacity: 0.8;
+    transition: all 0.8s ease-out;
+    display: none;
+  }
+
+  .menu.expanded ul {
+    display: block;
+  }
+
+  li {
+    color: aliceblue;
+    margin-bottom: 50px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 70px;
+  }
+}
