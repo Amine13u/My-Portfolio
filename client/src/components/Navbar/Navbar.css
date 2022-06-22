@@ -29,6 +29,10 @@ li {
   cursor: pointer;
 }
 
+li:first-child {
+  color: #eba63f;
+}
+
 li:hover {
   color: #eba63f;
 }
@@ -61,7 +65,7 @@ li:hover {
     position: absolute;
     right: 0;
     top: 90%;
-    height: 400%;
+    height: 200%;
     width: 100%;
     background-color: #1f2235;
     z-index: 1000;

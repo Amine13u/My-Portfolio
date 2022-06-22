@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -13,7 +14,17 @@ const Navbar = () => {
       <div className={show ? "menu expanded" : "menu"}>
         <ul>
           <li>Home</li>
-          <li>About Me</li>
+          <li>
+            <Link
+              to="about-me"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1500}
+            >
+              About Me
+            </Link>
+          </li>
           <li>Resume</li>
           <li>Contact Me</li>
         </ul>

@@ -1,0 +1,49 @@
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.head {
+  font-size: 32px;
+  color: #1d1d2c;
+  font-family: "Poppins Bold";
+}
+
+.description {
+  letter-spacing: 3px;
+  margin: 8px 0 18px 0;
+  font-size: 22px;
+  color: black;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  margin: 10px 0 0 0;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #1d1d2c;
+}
+
+.blob {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -200%;
+}
+
+.blob div {
+  width: 35px;
+  border-radius: 10px;
+  background-color: #eba63f;
+}
