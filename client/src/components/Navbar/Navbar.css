@@ -1,15 +1,20 @@
-.container {
+.nav-container {
   background-color: #1d1d2c;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-bottom: 1px;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 7777;
+  height: 80px;
 }
 
 .brand {
   font-size: 50px;
   font-family: "Poppins Bold";
   color: #3cbcc3;
+  cursor: pointer;
 }
 
 .menu {
@@ -29,7 +34,7 @@ li {
   cursor: pointer;
 }
 
-li:first-child {
+li .active {
   color: #eba63f;
 }
 

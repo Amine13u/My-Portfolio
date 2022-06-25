@@ -4,7 +4,7 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="container">
+    <div className="profile-container" id="profile">
       <div className="parent">
         <div className="details">
           <div className="cols">
