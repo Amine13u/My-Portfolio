@@ -54,7 +54,7 @@
 body {
   margin: 0;
   font-family: "Poppins Regular";
-  overflow-y: overlay;
+  overflow-y: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -98,7 +98,6 @@ code {
 
 .highlighted-btn {
   color: white;
-
   font-size: 12px;
   background-color: #eba63f;
 }

@@ -56,7 +56,18 @@ const Navbar = () => {
               Resume
             </Link>
           </li>
-          <li>Contact Me</li>
+          <li>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1500}
+              activeClass="active"
+            >
+              Contact Me
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

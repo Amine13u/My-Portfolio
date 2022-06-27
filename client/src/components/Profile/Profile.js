@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Typical from "react-typical";
 import "./Profile.css";
 
@@ -53,7 +54,16 @@ const Profile = () => {
             </span>
           </div>
           <div className="options">
-            <button className="btn primary-btn">Hire Me</button>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1500}
+              activeClass="active"
+            >
+              <button className="btn primary-btn">Hire Me</button>
+            </Link>
             <a href="resume.pdf" download="Mohamed Amine resume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>

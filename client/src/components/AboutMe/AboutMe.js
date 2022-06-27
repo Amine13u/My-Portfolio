@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Head from "../Head/Head";
 import "./AboutMe.css";
 
@@ -34,7 +35,16 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn">Hire Me</button>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1500}
+                activeClass="active"
+              >
+                <button className="btn primary-btn">Hire Me</button>
+              </Link>
               <a href="resume.pdf" download="Mohamed Amine resume.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>

@@ -102,7 +102,7 @@ const Resume = () => {
       />
     </div>,
     <div
-      className="resume-screen-container"
+      className="resume-screen-container work-container"
       key="work-experience"
       id="Work Experience"
     >
@@ -191,14 +191,13 @@ const Resume = () => {
         to={bullet.label}
         containerId="containerElement"
         spy={true}
-        smooth={true}
+        smooth={false}
         duration={1000}
         activeClass="selected-bullet"
         key={i}
       >
         <div className="bullet">
           <div className="bullet-icon">{bullet.icon}</div>
-
           <span className="bullet-label">{bullet.label}</span>
         </div>
       </Link>
