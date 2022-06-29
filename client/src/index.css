@@ -107,13 +107,3 @@ code {
     z-index: -900;
   }
 }
-
-.red-border {
-  border: 1px solid var(--error-message) !important;
-}
-
-.fade-in {
-  opacity: 0;
-  transform: translateY(80px);
-  transition: all 0.8s ease;
-}

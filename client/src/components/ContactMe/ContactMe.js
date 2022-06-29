@@ -43,6 +43,9 @@ const ContactMe = () => {
         setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBoolean(false);
+        setName("");
+        setEmail("");
+        setMessage("");
       }
     } catch (error) {
       console.error(error);
