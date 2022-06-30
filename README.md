@@ -4,7 +4,7 @@ This Real World Responsive Portfolio Website With Email Functionality was built 
 
 ## Heroku Link
 
-Open [https://myportfolio-application.herokuapp.com/](https://myportfolio-application.herokuapp.com/) to view a demo of the app in Heroku.
+Open [https://myportfolio-application.herokuapp.com](https://myportfolio-application.herokuapp.com) to view a demo of the app in Heroku.
 
 ## Available Scripts
 
@@ -34,4 +34,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run dev`
 
-Runs both the app and the server using concurrently in the development mode.\
+Runs both the app and the server using concurrently in the development mode.
